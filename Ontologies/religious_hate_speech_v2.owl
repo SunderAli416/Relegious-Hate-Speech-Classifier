@@ -1,0 +1,635 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#synonyms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#synonyms">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Arafat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Arafat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat_fasting"/>
+        <rdfs:comment>Fasting done on 9 zilhajj</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Awabeen_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Awabeen_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl"/>
+        <rdfs:comment>Prayed after maghrib namaz</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Belief_in_last_prophet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Belief_in_last_prophet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shahadah"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Onness_in_Allah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Bright_moon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Bright_moon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat_fasting"/>
+        <rdfs:comment>Fasting done on 13,14 and 15 of every month of islamic calendar</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Chasht_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Chasht_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl"/>
+        <rdfs:comment>Prayed after 1 hour 30 mins when the sun has risen</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eid_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eid_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib"/>
+        <rdfs:comment>Eid prayer takes place in the early morning (after Fajr) on the first day of Eid. Muslims are encouraged to pray in Jama&apos;ah (congregation) with their local Muslim community on occasions such as these</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fajar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fajar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz_fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz_fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fasting"/>
+        <rdfs:comment>Fasting which needs to be practiced cannot be exempted</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pillars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Friday_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Friday_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib"/>
+        <rdfs:comment>Friday prayer or Congregational prayer is a prayer that Muslims hold every Friday, after noon instead of the Zuhr prayer</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Funeral_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Funeral_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat"/>
+        <rdfs:comment>Funeral prayer; a part of the Islamic funeral ritual. The prayer is performed in congregation to seek pardon for the deceased and all dead Muslims.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Haajat_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Haajat_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl"/>
+        <rdfs:comment>It is a prayer basically recited for wishes or the fulfilment of any specific purpose.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Isha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Isha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Ishraq_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Ishraq_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl"/>
+        <rdfs:comment>Prayed after 10 mins when the sun has risen</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Islam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Islam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Istikhara_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Istikhara_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl"/>
+        <rdfs:comment>Prayer of Seeking Counsel, is a prayer recited by Muslims who are in need of guidance from God when facing a decision in their life.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Istisqa_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Istisqa_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat"/>
+        <rdfs:comment>A sunnah salah (Islamic prayer) for requesting and seeking rain water from God.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Kaffara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Kaffara">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib_fasting"/>
+        <rdfs:comment>Fasting of 60 days or have to pay amount or feed 60 miskeens incase a person is not feeling well.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Khusoof_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Khusoof_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl"/>
+        <rdfs:comment>Prayer prayed on lunar eclipse</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Maghrib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Maghrib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Moharram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Moharram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat_fasting"/>
+        <rdfs:comment>Fasting done on 9 and 10 of moharram</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafil_fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafil_fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fasting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pillars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nazar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nazar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib_fasting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Onness_in_Allah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Onness_in_Allah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shahadah"/>
+        <rdfs:comment>fasting practiced by any individual if he wants wishes to be fulfilled</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pilgrimage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pilgrimage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pillars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pillars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pillars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Islam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Ramazan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Ramazan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz_fasting"/>
+        <rdfs:comment>Fasting done in the month of ramazan</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Random -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Random">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafil_fasting"/>
+        <rdfs:comment>Fasting observed on any day, mostly people fast on monday and thursday as practiced by the prophet(saw).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Salat_ul_Witr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Salat_ul_Witr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib"/>
+        <rdfs:comment>Prayed after farz prayer of isha have been prayed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shaban -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shaban">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafil_fasting"/>
+        <rdfs:comment>Fasting observed on 15 Shabban</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shahadah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shahadah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pillars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shawwal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shawwal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafil_fasting"/>
+        <rdfs:comment>6 days of fasting observed after eid_ul_fitr</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat_fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat_fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fasting"/>
+        <rdfs:comment>Fasting practiced by individuals as it is sunnah and practice of our prophet</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tahajud_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tahajud_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tahiyyatul_Wuzzu_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tahiyyatul_Wuzzu_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl"/>
+        <rdfs:comment>Tahiyatul wudu is the nafl prayer after doing wudhu</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tarawwih_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tarawwih_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat"/>
+        <rdfs:comment>Special prayer carried out during ramazan after isha prayer</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tasbih_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tasbih_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat"/>
+        <rdfs:comment>Salatul Tasbih (صلاة تسبيح) also known as supplication prayer, is a form of sunnah prayer. As the name suggests, this unique prayer involves reciting the tasbih many times and it is said those who pray this particular way will have many of their sins forgiven.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tawaff_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tawaff_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib"/>
+        <rdfs:comment>2 rakat prayer offered after tawaf</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Travel_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Travel_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat"/>
+        <rdfs:comment>Prayed when a person is travelling and not residing in a particular place. Is identical to the five daily prayes except not all the five daily prayers are prayer</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib_fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib_fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fasting"/>
+        <rdfs:comment>Are obligatory Fasting to be practiced by individuals who have broken or left mandatory fasting and have to practice them.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pillars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_ul_fitr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_ul_fitr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_wealth"/>
+        <rdfs:comment>It is charity paid by all muslims at the end of the month of ramazan</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_wealth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_wealth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat"/>
+        <rdfs:comment>Zakat payed annualy on wealth that includes(currency, gold, silver, and property).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zuhar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zuhar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#kusoof_prayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#kusoof_prayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl"/>
+        <rdfs:comment>Salatul Kusoof is a prayer in the Muslim faith known as the &quot;eclipse prayer,” which occurs when the moon comes between the sun and Earth. The prayer is unique because there is no first call or second call to prayer.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz"/>
+        <synonyms>Prayer</synonyms>
+        <synonyms>namaaz</synonyms>
+        <synonyms>namaz</synonyms>
+        <synonyms>salaah</synonyms>
+        <synonyms>salaat</synonyms>
+        <synonyms>salah</synonyms>
+        <synonyms>salat</synonyms>
+        <synonyms>worship</synonyms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Roza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Roza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fasting"/>
+        <synonyms>Fasting</synonyms>
+        <synonyms>Self restraint</synonyms>
+        <synonyms>roza</synonyms>
+        <synonyms>saum</synonyms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shahadah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shahadah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shahadah"/>
+        <synonyms>affirmation</synonyms>
+        <synonyms>belief</synonyms>
+        <synonyms>faith</synonyms>
+        <synonyms>shahadah</synonyms>
+        <synonyms>tawhid</synonyms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat"/>
+        <synonyms>alms-giving</synonyms>
+        <synonyms>almsgiving</synonyms>
+        <synonyms>charity</synonyms>
+        <synonyms>donation</synonyms>
+        <synonyms>zakat</synonyms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#hajj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#hajj">
+        <synonyms>hajj</synonyms>
+        <synonyms>pilgirms journey</synonyms>
+        <synonyms>pilgrimage</synonyms>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdfs:comment>Roza</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fajar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Isha"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Maghrib"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zuhar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Awabeen_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Chasht_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Haajat_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Ishraq_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Istikhara_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Khusoof_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tahiyyatul_Wuzzu_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#kusoof_prayer"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eid_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Friday_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Salat_ul_Witr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tawaff_prayer"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fasting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pilgrimage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shahadah"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Funeral_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Istisqa_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tahajud_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tarawwih_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tasbih_prayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Travel_prayer"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

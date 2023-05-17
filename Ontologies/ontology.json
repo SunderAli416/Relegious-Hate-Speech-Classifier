@@ -1,0 +1,958 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tayammum_component"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#asar"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fajar"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#isha"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#maghrib"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zuhar"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#awabeen"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#chasht"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#haajat"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ishraq"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istikhara"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#khusoof"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kusoof"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahiyyatul_ul_wuzu"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#bowing"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fatiha"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#intention"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prostration"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qadah"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qauma"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#recitation"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salaam"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sitting"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing_after_bow"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#takbir"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_body"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_whole_body"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_nostrils"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_the_mouth"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wudu"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajj"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#eid"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#friday"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salat_ul_witr"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tawaff"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_fasting"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_fasting"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#arafat"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#brightmoon"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#muharram"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajj"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#funeral"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istisqa"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahajud"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tarawwih"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tasbih"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#travel"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_head"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_neck"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_mouth"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_face"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_feet_till_ankle"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands_till_elbow"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_nostrils"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#random"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shabban"
+    }, {
+      "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shawwal"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is an ontology for the 5 pillars of islam."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "List of all the components to do while performing wudu"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "partial ablution"
+  }, {
+    "@language" : "en",
+    "@value" : "wudu"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#allah",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "almighty"
+  }, {
+    "@language" : "en",
+    "@value" : "author"
+  }, {
+    "@language" : "en",
+    "@value" : "creator"
+  }, {
+    "@language" : "en",
+    "@value" : "deity"
+  }, {
+    "@language" : "en",
+    "@value" : "divinity"
+  }, {
+    "@language" : "en",
+    "@value" : "eternal"
+  }, {
+    "@language" : "en",
+    "@value" : "everlasting"
+  }, {
+    "@language" : "en",
+    "@value" : "god"
+  }, {
+    "@language" : "en",
+    "@value" : "lord"
+  }, {
+    "@language" : "en",
+    "@value" : "maker"
+  }, {
+    "@language" : "en",
+    "@value" : "providence"
+  }, {
+    "@language" : "en",
+    "@value" : "supreme being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#last_prophet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#arafat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#asar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#awabeen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#bowing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#brightmoon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#chasht",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_whole_body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#eid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fajar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_fasting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mandatory fasting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "roza"
+  }, {
+    "@language" : "en",
+    "@value" : "saum"
+  }, {
+    "@language" : "en",
+    "@value" : "self restraint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fatiha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#friday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#funeral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The act of cleansing the whole body. Muslims perform after lesser impurities such as urination, defecation, flatulence, deep sleep, and light bleeding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "full ablution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#haajat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajj",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hadjdj"
+  }, {
+    "@language" : "en",
+    "@value" : "holy expedition"
+  }, {
+    "@language" : "en",
+    "@value" : "journey"
+  }, {
+    "@language" : "en",
+    "@value" : "pilgrimage"
+  }, {
+    "@language" : "en",
+    "@value" : "pilgrims journey"
+  }, {
+    "@language" : "en",
+    "@value" : "spiritual journey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_ablution_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hascomponent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_ghusal_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hascomponent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_khutbah",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Friday prayer has khutbah"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_prayer_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hascomponent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hascomponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Namaz has components ablution, prayer component."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#intention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#isha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ishraq",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#islam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istikhara",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istisqa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaffara",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_fasting"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nazar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#khusoof",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kiblah",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kusoof",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#last_prophet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nabi"
+  }, {
+    "@language" : "en",
+    "@value" : "prophet"
+  }, {
+    "@language" : "en",
+    "@value" : "rasool"
+  }, {
+    "@language" : "en",
+    "@value" : "seal of prophets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#maghrib",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_head",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_neck",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#muharram",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "communion"
+  }, {
+    "@language" : "en",
+    "@value" : "devotion"
+  }, {
+    "@language" : "en",
+    "@value" : "prayer"
+  }, {
+    "@language" : "en",
+    "@value" : "salah"
+  }, {
+    "@language" : "en",
+    "@value" : "salat"
+  }, {
+    "@language" : "en",
+    "@value" : "supplication"
+  }, {
+    "@language" : "en",
+    "@value" : "worship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nazar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#performed_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "prayer performed on particular days and time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#islam"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The steps performed to worship namaz . namaz cannot be completed if the mandatory acts are not performed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prostration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qadah",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qauma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ramazan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#random",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#recitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_mouth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_nostrils",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_the_mouth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salaam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salat_ul_witr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shabban",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "affirmation"
+  }, {
+    "@language" : "en",
+    "@value" : "belief"
+  }, {
+    "@language" : "en",
+    "@value" : "decleration of faith"
+  }, {
+    "@language" : "en",
+    "@value" : "faith"
+  }, {
+    "@language" : "en",
+    "@value" : "profession of faith"
+  }, {
+    "@language" : "en",
+    "@value" : "tawhid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shawwal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sitting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing_after_bow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahajud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahiyyatul_ul_wuzu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#takbir",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tarawwih",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tasbih",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tawaff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tayammum_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Substitute of wudu often done when there is no water to perform wudu. tayammum is done using dry earth/sand."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#travel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_fasting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_face",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_feet_till_ankle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands_till_elbow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_nostrils",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wipe_face",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tayammum_component"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wipe_hands"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wipe_hands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tayammum_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wudu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "almsgiving"
+  }, {
+    "@language" : "en",
+    "@value" : "charity"
+  }, {
+    "@language" : "en",
+    "@value" : "donation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat_ul_fitr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat_wealth"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat_wealth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zuhar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"
+  } ]
+} ]

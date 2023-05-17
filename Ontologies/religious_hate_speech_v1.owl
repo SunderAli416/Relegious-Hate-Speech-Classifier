@@ -1,0 +1,709 @@
+@prefix : <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3> .
+
+<http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_faith
+:Is_faith rdf:type owl:ObjectProperty ;
+          rdfs:domain :Shaddah ;
+          rdfs:range :Belief_in_last_prophet ,
+                     :Onness_in_Allah .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_farz_prayer
+:Is_farz_prayer rdf:type owl:ObjectProperty ;
+                rdfs:domain :Farz ;
+                rdfs:range :Asar ,
+                           :Fajar ,
+                           :Isha ,
+                           :Maghrib ,
+                           :Zuhar .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_fasting
+:Is_fasting rdf:type owl:ObjectProperty ;
+            rdfs:domain :Fasting ;
+            rdfs:range :Mandatory_fasting ,
+                       :Nafil_fasting ,
+                       :Sunnat_fasting ,
+                       :Wajib_fasting .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_manditory
+:Is_manditory rdf:type owl:ObjectProperty ;
+              rdfs:domain :Mandatory_fasting ;
+              rdfs:range :Ramazan .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_nafil_fasting
+:Is_nafil_fasting rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Nafil_fasting ;
+                  rdfs:range :Random_fasting ,
+                             :Shaban_fasting ,
+                             :Shawwal_fasting .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_nafil_prayer
+:Is_nafil_prayer rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Nafl ;
+                 rdfs:range :Awabeen_prayer ,
+                            :Chasht_prayer ,
+                            :Haajat_prayer ,
+                            :Ishraq_prayer ,
+                            :Istikhara_prayer ,
+                            :Khusoof_prayer ,
+                            :Tahiyyatul_Wuzzu_prayer ,
+                            :kusoof_prayer .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_sunnah_fasting
+:Is_sunnah_fasting rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Sunnat_fasting ;
+                   rdfs:range :Arafat_fasting ,
+                              :Bright_moon_fasting ,
+                              :Moharram_fasting .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_wajib_fasting
+:Is_wajib_fasting rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Wajib_fasting ;
+                  rdfs:range :Kaffara ,
+                             :Nazar .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_wajib_prayer
+:Is_wajib_prayer rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Wajib ;
+                 rdfs:range :Eid_prayer ,
+                            :Friday_prayer ,
+                            :Salat_ul_Witr ,
+                            :Tawaff_prayer .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Is_zakat
+:Is_zakat rdf:type owl:ObjectProperty ;
+          rdfs:domain :Zakat ;
+          rdfs:range :Zakat_ul_fitr ,
+                     :Zakat_wealth .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Only_pillars
+:Only_pillars rdf:type owl:ObjectProperty ;
+              rdfs:domain :Pillars ;
+              rdfs:range :Fasting ,
+                         :Namaz ,
+                         :Pilgrimage ,
+                         :Shaddah ,
+                         :Zakat .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Type_of_namaz
+:Type_of_namaz rdf:type owl:ObjectProperty ;
+               rdfs:domain :Namaz ;
+               rdfs:range :Farz ,
+                          :Nafl ,
+                          :Sunnat ,
+                          :Wajib .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#basis_of_islam
+:basis_of_islam rdf:type owl:ObjectProperty ;
+                rdfs:domain :Islam ;
+                rdfs:range :Pillars .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#is_sunnat_prayer
+:is_sunnat_prayer rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Sunnat ;
+                  rdfs:range :Funeral_prayer ,
+                             :Istisqa_prayer ,
+                             :Tahajud_prayer ,
+                             :Tarawwih_prayer ,
+                             :Tasbih_prayer ,
+                             :Travel_prayer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Agriculture_yield
+:Agriculture_yield rdf:type owl:Class ;
+                   rdfs:subClassOf :Zakat_calculation .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Amil
+:Amil rdf:type owl:Class ;
+      rdfs:subClassOf :Collection_channel .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Arafat
+:Arafat rdf:type owl:Class ;
+        rdfs:subClassOf :Makkah ;
+        rdfs:comment "On 9 Dhu al-Hijjah before noon, pilgrims arrive at Arafat, a barren plain some 20 kilometres (12 mi) east of Mecca, they offer supplications, repent and atone for their past sins, seek mercy of God, and listen to Islamic scholars giving sermons from near Mount Arafat." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Arafat_fasting
+:Arafat_fasting rdf:type owl:Class ;
+                rdfs:subClassOf :Sunnat_fasting ;
+                rdfs:comment "Fasting done on 9 zilhajj" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asar
+:Asar rdf:type owl:Class ;
+      rdfs:subClassOf :Farz .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asnaf_amil
+:Asnaf_amil rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)> ;
+            rdfs:comment "individual who is responsible to Collect Zakat. Can be given Zakat" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asnaf_fakir
+:Asnaf_fakir rdf:type owl:Class ;
+             rdfs:subClassOf <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)> ;
+             rdfs:comment "Zakat given to someone who does not have a property or revenues sufficient to meet the basic needs of themselves and their dependents to accommodate the needs of food and clothing, and shelter." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asnaf_fisabilillah
+:Asnaf_fisabilillah rdf:type owl:Class ;
+                    rdfs:subClassOf <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)> ;
+                    rdfs:comment "One who strives in the cause of Allah for the betterment of the community. Disbursement to Fisabilillah includes religious programmes, mosque leadership and management, and dakwah and public education" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asnaf_gharimin
+:Asnaf_gharimin rdf:type owl:Class ;
+                rdfs:subClassOf <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)> ;
+                rdfs:comment "Zakat given to those who are in debt and need to pay of their loans" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asnaf_ibnussabil
+:Asnaf_ibnussabil rdf:type owl:Class ;
+                  rdfs:subClassOf <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)> ;
+                  rdfs:comment "Zakat given to a travelor who doesnot have enough money for his journey" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asnaf_miskin
+:Asnaf_miskin rdf:type owl:Class ;
+              rdfs:subClassOf <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)> ;
+              rdfs:comment "Zakat given to the person who has nothing in his posession" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asnaf_muallaf
+:Asnaf_muallaf rdf:type owl:Class ;
+               rdfs:subClassOf <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)> ;
+               rdfs:comment "Zakat given to a newly convert of islam who has left all his belongings and material in the way of the religion" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Asnaf_riqab
+:Asnaf_riqab rdf:type owl:Class ;
+             rdfs:subClassOf <http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)> ;
+             rdfs:comment "zakat given for the liberation of slaves" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Awabeen_prayer
+:Awabeen_prayer rdf:type owl:Class ;
+                rdfs:subClassOf :Nafl ;
+                rdfs:comment "Prayed after maghrib namaz" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Bank_savings
+:Bank_savings rdf:type owl:Class ;
+              rdfs:subClassOf :Zakat_calculation .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Belief_in_last_prophet
+:Belief_in_last_prophet rdf:type owl:Class ;
+                        rdfs:subClassOf :Shaddah .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Bright_moon_fasting
+:Bright_moon_fasting rdf:type owl:Class ;
+                     rdfs:subClassOf :Sunnat_fasting ;
+                     rdfs:comment "Fasting done on 13,14 and 15 of every month of islamic calendar" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Chasht_prayer
+:Chasht_prayer rdf:type owl:Class ;
+               rdfs:subClassOf :Nafl ;
+               rdfs:comment "Prayed after 1 hour 30 mins when the sun has risen" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Collection
+:Collection rdf:type owl:Class ;
+            rdfs:subClassOf :Zakat ;
+            rdfs:comment "How is zakat to be collected? who is the person responsible for its collection? and at what rate it is to be collected from selected people." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Collection_channel
+:Collection_channel rdf:type owl:Class ;
+                    rdfs:subClassOf :Collection .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Counter
+:Counter rdf:type owl:Class ;
+         rdfs:subClassOf :Collection_channel .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Distribution
+:Distribution rdf:type owl:Class ;
+              rdfs:subClassOf :Zakat ;
+              rdfs:comment "The way in which the zakat is to be distributed among the people who are eligible for it" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eid_prayer
+:Eid_prayer rdf:type owl:Class ;
+            rdfs:subClassOf :Wajib ;
+            rdfs:comment "Eid prayer takes place in the early morning (after Fajr) on the first day of Eid. Muslims are encouraged to pray in Jama'ah (congregation) with their local Muslim community on occasions such as these" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fajar
+:Fajar rdf:type owl:Class ;
+       rdfs:subClassOf :Farz .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Farz
+:Farz rdf:type owl:Class ;
+      rdfs:subClassOf :Namaz .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Fasting
+:Fasting rdf:type owl:Class ;
+         rdfs:subClassOf :Pillars .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Friday_prayer
+:Friday_prayer rdf:type owl:Class ;
+               rdfs:subClassOf :Wajib ;
+               rdfs:comment "Friday prayer or Congregational prayer is a prayer that Muslims hold every Friday, after noon instead of the Zuhr prayer" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Funeral_prayer
+:Funeral_prayer rdf:type owl:Class ;
+                rdfs:subClassOf :Sunnat ;
+                rdfs:comment "Funeral prayer; a part of the Islamic funeral ritual. The prayer is performed in congregation to seek pardon for the deceased and all dead Muslims." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Gold_calculation
+:Gold_calculation rdf:type owl:Class ;
+                  rdfs:subClassOf :Zakat_calculation .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Haajat_prayer
+:Haajat_prayer rdf:type owl:Class ;
+               rdfs:subClassOf :Nafl ;
+               rdfs:comment "It is a prayer basically recited for wishes or the fulfilment of any specific purpose." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Hajar_e_aswad
+:Hajar_e_aswad rdf:type owl:Class ;
+               rdfs:subClassOf :Masjid_al_Haraam ;
+               rdfs:comment """The Black Stone (al-Ḥajaru al-Aswad, 'Black Stone') is a rock set into the eastern corner of the Kaaba. It is revered by Muslims as an Islamic relic which, according to Muslim tradition, dates back to the time of Hazrat Adam AS.
+
+The stone was venerated at the Kaaba in pre-Islamic pagan times. According to Islamic tradition, it was set intact into the Kaaba's wall by the Islamic prophet Muhammad in 605 CE, five years before his first revelation.""" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Hateem
+:Hateem rdf:type owl:Class ;
+        rdfs:subClassOf :Masjid_al_Haraam ;
+        rdfs:comment "It is believed that the blessings that one receives after praying inside the Al Hateem are equivalent to the rewards received by a pilgrim who prays inside the Kaaba. It is crowded in times when Muslims offer two Rakah of Nafl and worship Allah" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Investment_Stocks_Shares
+:Investment_Stocks_Shares rdf:type owl:Class ;
+                          rdfs:subClassOf :Zakat_calculation .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Isha
+:Isha rdf:type owl:Class ;
+      rdfs:subClassOf :Farz .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Ishraq_prayer
+:Ishraq_prayer rdf:type owl:Class ;
+               rdfs:subClassOf :Nafl ;
+               rdfs:comment "Prayed after 10 mins when the sun has risen" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Islam
+:Islam rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Istikhara_prayer
+:Istikhara_prayer rdf:type owl:Class ;
+                  rdfs:subClassOf :Nafl ;
+                  rdfs:comment "Prayer of Seeking Counsel, is a prayer recited by Muslims who are in need of guidance from God when facing a decision in their life." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Istisqa_prayer
+:Istisqa_prayer rdf:type owl:Class ;
+                rdfs:subClassOf :Sunnat ;
+                rdfs:comment "A sunnah salah (Islamic prayer) for requesting and seeking rain water from God." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Jamarat
+:Jamarat rdf:type owl:Class ;
+         rdfs:subClassOf :Mina ;
+         rdfs:comment "The Jamarat (Al-Jamarat) is an important site for the pilgrims which consists of three stone columns that are pelted as a mandatory Hajj ritual in imitation of the Prophet Abraham" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Kaffara
+:Kaffara rdf:type owl:Class ;
+         rdfs:subClassOf :Wajib_fasting ;
+         rdfs:comment "Fasting of 60 days or have to pay amount or feed 60 miskeens incase a person is not feeling well." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Khusoof_prayer
+:Khusoof_prayer rdf:type owl:Class ;
+                rdfs:subClassOf :Nafl ;
+                rdfs:comment "Prayer prayed on lunar eclipse" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Livestick
+:Livestick rdf:type owl:Class ;
+           rdfs:subClassOf :Zakat_calculation .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Madinah
+:Madinah rdf:type owl:Class ;
+         rdfs:subClassOf :Place ;
+         rdfs:comment "A city located in Saudi arabia" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Maghrib
+:Maghrib rdf:type owl:Class ;
+         rdfs:subClassOf :Farz .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Makkah
+:Makkah rdf:type owl:Class ;
+        rdfs:subClassOf :Place ;
+        rdfs:comment "A city located in Saudi arabia" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Mandatory_fasting
+:Mandatory_fasting rdf:type owl:Class ;
+                   rdfs:subClassOf :Fasting ;
+                   rdfs:comment "Fasting which needs to be practiced cannot be exempted" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Maqam_e_ibrahim
+:Maqam_e_ibrahim rdf:type owl:Class ;
+                 rdfs:subClassOf :Makkah ;
+                 rdfs:comment "Take as your place of worship the place where Ibrahim(PBUH) stood (to pray).” Here, Allah instructs all the pilgrims to come in front of Maqam-e-Ibrahim after completing all seven rounds around Kabbah or after completing a Tawaf and offer two rakats of salah for Tawaf." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Marwa
+:Marwa rdf:type owl:Class ;
+       rdfs:subClassOf :Makkah ;
+       rdfs:comment "A hill connected with safa hill which is part of the masjid e haram where pilgris are made to perform (Saee) travel back and forth seven times." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Masjid_al_Haraam
+:Masjid_al_Haraam rdf:type owl:Class ;
+                  rdfs:subClassOf :Makkah ;
+                  rdfs:comment "The greatest mosque and a holy place for all the muslims around the world where muslims perform Hajj, umrah and 5 daily prayers" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Mataf
+:Mataf rdf:type owl:Class ;
+       rdfs:subClassOf :Makkah ;
+       rdfs:comment "The Mataf refers to the open white area immediately around the Kaaba where Hajj and Umrah pilgrims perform the “tawaf” or circumambulation. Part of any Hajj or Umrah pilgrim's duties during their pilgrimage is to circle the Kaaba in a counter-clockwise direction seven times." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Meezab_e_rehmat
+:Meezab_e_rehmat rdf:type owl:Class ;
+                 rdfs:subClassOf :Masjid_al_Haraam ;
+                 rdfs:comment "In Masjid Al-Haram, Meezab-e-Rehmat is the golden spout from which rainwater falls from the roof of the mosque over Hijr Ismail, the crescent shaped area outside the Kaaba." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Meqaat
+:Meqaat rdf:type owl:Class ;
+        rdfs:subClassOf :Makkah ;
+        rdfs:comment "The miqat is the principal boundary at which Muslim pilgrims intending to perform the Ḥajj or Umrah pilgrimages must be enter the state of iḥrām (lit. 'prohibition'), a state of consecration in which certain permitted activities are made prohibited." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Mina
+:Mina rdf:type owl:Class ;
+      rdfs:subClassOf :Makkah ;
+      rdfs:comment "Mina is known as the largest tent city in the world. Pilgrims must stay in Mina during Hajj and perform the Stoning of the Devil at the Jamarat. The ritual is performed between sunrise and sunset in the final days of the Hajj." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Moharram_fasting
+:Moharram_fasting rdf:type owl:Class ;
+                  rdfs:subClassOf :Sunnat_fasting ;
+                  rdfs:comment "Fasting done on 9 and 10 of moharram" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Money_lent
+:Money_lent rdf:type owl:Class ;
+            rdfs:subClassOf :Zakat_calculation .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Multazim
+:Multazim rdf:type owl:Class ;
+          rdfs:subClassOf :Masjid_al_Haraam ;
+          rdfs:comment "The Multazam is also called the place of clinging. Basically, Multazam literal meaning is clinging as Muslims do pray (dua) in a way that they place their chest, face, forearms, and palms against it and call upon Allah and asking for whatever a Muslim wish." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Muzdalifah
+:Muzdalifah rdf:type owl:Class ;
+            rdfs:subClassOf :Makkah ;
+            rdfs:comment """Muzdalifah is an open and level area near Mecca in the Hejazi region of Saudi Arabia that is associated with the Ḥajj (\"Pilgrimage\").It lies just southeast of Mina, on the route between Mina and Arafat.
+
+The stay at Muzdalifah is preceded by a day at Arafat, consisting of glorifying Allāh (God) repeating the Duʿāʾ (Supplication), repentance to Allah, and asking Him for forgiveness. After sunset on the ninth day of the Islamic month of Dhūl-Ḥijjah, Muslim pilgrims travel to Muzdalifa. After arriving at Muzdalifah, pilgrims pray the Maghrib and ʿIshāʾ prayers jointly, the Isha prayer is shortened to 2 rakats. At Muzdalifah, pilgrims collect pebbles for the Stoning of the Devil( Ramī al-Jamarāt, lit). Stoning of the Place of Pebbles').""" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafil_fasting
+:Nafil_fasting rdf:type owl:Class ;
+               rdfs:subClassOf :Fasting .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nafl
+:Nafl rdf:type owl:Class ;
+      rdfs:subClassOf :Namaz .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Namaz
+:Namaz rdf:type owl:Class ;
+       rdfs:subClassOf :Pillars .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Nazar
+:Nazar rdf:type owl:Class ;
+       rdfs:subClassOf :Wajib_fasting .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Onness_in_Allah
+:Onness_in_Allah rdf:type owl:Class ;
+                 rdfs:subClassOf :Shaddah ;
+                 rdfs:comment "fasting practiced by any individual if he wants wishes to be fulfilled" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pension
+:Pension rdf:type owl:Class ;
+         rdfs:subClassOf :Zakat_calculation .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pilgrimage
+:Pilgrimage rdf:type owl:Class ;
+            rdfs:subClassOf :Pillars .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pilgrimage_time
+:Pilgrimage_time rdf:type owl:Class ;
+                 rdfs:subClassOf :Rituals_pilgrimage ;
+                 rdfs:comment "The period date and time at which they must be performed" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Pillars
+:Pillars rdf:type owl:Class ;
+         rdfs:subClassOf :Islam .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Place
+:Place rdf:type owl:Class ;
+       rdfs:subClassOf :Rituals_pilgrimage ;
+       rdfs:comment "The place where they must be performed" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Punsihments_pilgrimage
+:Punsihments_pilgrimage rdf:type owl:Class ;
+                        rdfs:subClassOf :Pilgrimage ;
+                        rdfs:comment "Actions which need to be performed if any ritual is violated or left out by mistake" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Ramazan
+:Ramazan rdf:type owl:Class ;
+         rdfs:subClassOf :Mandatory_fasting ;
+         rdfs:comment "Fasting done in the month of ramazan" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Random_fasting
+:Random_fasting rdf:type owl:Class ;
+                rdfs:subClassOf :Nafil_fasting ;
+                rdfs:comment "Fasting observed on any day, mostly people fast on monday and thursday as practiced by the prophet(saw)." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Rituals_pilgrimage
+:Rituals_pilgrimage rdf:type owl:Class ;
+                    rdfs:subClassOf :Pilgrimage ;
+                    rdfs:comment "Acts performed during the period of hajj without which hajj will not be completed if even one of them are left out or not properly performed" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Saffa
+:Saffa rdf:type owl:Class ;
+       rdfs:subClassOf :Makkah ;
+       rdfs:comment "A hill connected with Marwah hill which is part of the masjid e haram where pilgris are made to perform (Saee) travel back and forth seven times." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Salary_Deduction
+:Salary_Deduction rdf:type owl:Class ;
+                  rdfs:subClassOf :Collection_channel .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Salat_ul_Witr
+:Salat_ul_Witr rdf:type owl:Class ;
+               rdfs:subClassOf :Wajib ;
+               rdfs:comment "Prayed after farz prayer of isha have been prayed" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shaban_fasting
+:Shaban_fasting rdf:type owl:Class ;
+                rdfs:subClassOf :Nafil_fasting ;
+                rdfs:comment "Fasting observed on 15 Shabban" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shaddah
+:Shaddah rdf:type owl:Class ;
+         rdfs:subClassOf :Pillars .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Shawwal_fasting
+:Shawwal_fasting rdf:type owl:Class ;
+                 rdfs:subClassOf :Nafil_fasting ;
+                 rdfs:comment "6 days of fasting observed after eid_ul_fitr" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Silver_calculation
+:Silver_calculation rdf:type owl:Class ;
+                    rdfs:subClassOf :Zakat_calculation .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat
+:Sunnat rdf:type owl:Class ;
+        rdfs:subClassOf :Namaz .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sunnat_fasting
+:Sunnat_fasting rdf:type owl:Class ;
+                rdfs:subClassOf :Fasting ;
+                rdfs:comment "Fasting practiced by individuals as it is sunnah and practice of our prophet" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tahajud_prayer
+:Tahajud_prayer rdf:type owl:Class ;
+                rdfs:subClassOf :Sunnat .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tahiyyatul_Wuzzu_prayer
+:Tahiyyatul_Wuzzu_prayer rdf:type owl:Class ;
+                         rdfs:subClassOf :Nafl ;
+                         rdfs:comment "Tahiyatul wudu is the nafl prayer after doing wudhu" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tarawwih_prayer
+:Tarawwih_prayer rdf:type owl:Class ;
+                 rdfs:subClassOf :Sunnat ;
+                 rdfs:comment "Special prayer carried out during ramazan after isha prayer" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tasbih_prayer
+:Tasbih_prayer rdf:type owl:Class ;
+               rdfs:subClassOf :Sunnat ;
+               rdfs:comment "Salatul Tasbih (صلاة تسبيح) also known as supplication prayer, is a form of sunnah prayer. As the name suggests, this unique prayer involves reciting the tasbih many times and it is said those who pray this particular way will have many of their sins forgiven." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Tawaff_prayer
+:Tawaff_prayer rdf:type owl:Class ;
+               rdfs:subClassOf :Wajib ;
+               rdfs:comment "2 rakat prayer offered after tawaf" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Through_Agent
+:Through_Agent rdf:type owl:Class ;
+               rdfs:subClassOf :Collection_channel .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Travel_prayer
+:Travel_prayer rdf:type owl:Class ;
+               rdfs:subClassOf :Sunnat ;
+               rdfs:comment "Prayed when a person is travelling and not residing in a particular place. Is identical to the five daily prayes except not all the five daily prayers are prayer" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib
+:Wajib rdf:type owl:Class ;
+       rdfs:subClassOf :Namaz .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Wajib_fasting
+:Wajib_fasting rdf:type owl:Class ;
+               rdfs:subClassOf :Fasting ;
+               rdfs:comment "Are obligatory Fasting to be practiced by individuals who have broken or left mandatory fasting and have to practice them." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat
+:Zakat rdf:type owl:Class ;
+       rdfs:subClassOf :Pillars .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_al_Fitr
+:Zakat_al_Fitr rdf:type owl:Class ;
+               rdfs:subClassOf :Zakat_type .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_al_Maal
+:Zakat_al_Maal rdf:type owl:Class ;
+               rdfs:subClassOf :Zakat_type .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_calculation
+:Zakat_calculation rdf:type owl:Class ;
+                   rdfs:subClassOf :Collection .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_type
+:Zakat_type rdf:type owl:Class ;
+            rdfs:subClassOf :Collection .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_ul_fitr
+:Zakat_ul_fitr rdf:type owl:Class ;
+               rdfs:subClassOf :Zakat ;
+               rdfs:comment "It is charity paid by all muslims at the end of the month of ramazan" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zakat_wealth
+:Zakat_wealth rdf:type owl:Class ;
+              rdfs:subClassOf :Zakat ;
+              rdfs:comment "Zakat payed annualy on wealth that includes(currency, gold, silver, and property)." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Zuhar
+:Zuhar rdf:type owl:Class ;
+       rdfs:subClassOf :Farz .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#kusoof_prayer
+:kusoof_prayer rdf:type owl:Class ;
+               rdfs:subClassOf :Nafl ;
+               rdfs:comment "Salatul Kusoof is a prayer in the Muslim faith known as the \"eclipse prayer,” which occurs when the moon comes between the sun and Earth. The prayer is unique because there is no first call or second call to prayer." .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)
+<http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Eligible_people(to_be_given_zakat)> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf :Zakat ;
+                                                                                                                   rdfs:comment "Those people who are entitled to be given zakat" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Rikaz(Buried_stones_metals)
+<http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Rikaz(Buried_stones_metals)> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf :Zakat_calculation .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sahib_e_Nisaab(eligible_people)
+<http://www.semanticweb.org/lenovo/ontologies/2022/6/religious_hate-ontology-3#Sahib_e_Nisaab(eligible_people)> rdf:type owl:Class ;
+                                                                                                                rdfs:subClassOf :Zakat .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

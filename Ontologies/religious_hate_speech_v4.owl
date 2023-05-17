@@ -1,0 +1,1335 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2">
+        <rdfs:comment>This is an ontology for the 5 pillars of islam.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_ablution_component -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_ablution_component">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hascomponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_ghusal_component -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_ghusal_component">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hascomponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_khutbah -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_khutbah">
+        <rdfs:comment xml:lang="en">Friday prayer has khutbah</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_prayer_component -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#has_prayer_component">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hascomponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hascomponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hascomponent">
+        <rdfs:comment xml:lang="en">Namaz has components ablution, prayer component.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#performed_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#performed_on">
+        <rdfs:comment xml:lang="en">prayer performed on particular days and time</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"/>
+        <rdfs:comment xml:lang="en">List of all the components to do while performing wudu</rdfs:comment>
+        <rdfs:label xml:lang="en">partial ablution</rdfs:label>
+        <rdfs:label xml:lang="en">wudu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#allah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#allah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#last_prophet"/>
+        <rdfs:label>ad dharr</rdfs:label>
+        <rdfs:label>al aakhir</rdfs:label>
+        <rdfs:label>al adl</rdfs:label>
+        <rdfs:label>al afuww</rdfs:label>
+        <rdfs:label>al ahad</rdfs:label>
+        <rdfs:label>al alee</rdfs:label>
+        <rdfs:label>al aleem</rdfs:label>
+        <rdfs:label>al atheem</rdfs:label>
+        <rdfs:label>al awwal</rdfs:label>
+        <rdfs:label>al azeez</rdfs:label>
+        <rdfs:label>al baaqi</rdfs:label>
+        <rdfs:label>al baari</rdfs:label>
+        <rdfs:label>al baasit</rdfs:label>
+        <rdfs:label>al baatin</rdfs:label>
+        <rdfs:label>al badee</rdfs:label>
+        <rdfs:label>al baith</rdfs:label>
+        <rdfs:label>al barr</rdfs:label>
+        <rdfs:label>al baseer</rdfs:label>
+        <rdfs:label>al fattaah</rdfs:label>
+        <rdfs:label>al ghaffar</rdfs:label>
+        <rdfs:label>al ghafoor</rdfs:label>
+        <rdfs:label>al ghaniyy</rdfs:label>
+        <rdfs:label>al haadi</rdfs:label>
+        <rdfs:label>al hafeedh</rdfs:label>
+        <rdfs:label>al hakam</rdfs:label>
+        <rdfs:label>al hakeem</rdfs:label>
+        <rdfs:label>al haleem</rdfs:label>
+        <rdfs:label>al hameed</rdfs:label>
+        <rdfs:label>al haqq</rdfs:label>
+        <rdfs:label>al haseeb</rdfs:label>
+        <rdfs:label>al hayy</rdfs:label>
+        <rdfs:label>al jaami</rdfs:label>
+        <rdfs:label>al jabbar</rdfs:label>
+        <rdfs:label>al jaleel</rdfs:label>
+        <rdfs:label>al kabeer</rdfs:label>
+        <rdfs:label>al kareem</rdfs:label>
+        <rdfs:label>al khaafidh</rdfs:label>
+        <rdfs:label>al khaaliq</rdfs:label>
+        <rdfs:label>al khabeer</rdfs:label>
+        <rdfs:label>al lateef</rdfs:label>
+        <rdfs:label>al maajid</rdfs:label>
+        <rdfs:label>al majeed</rdfs:label>
+        <rdfs:label>al malik</rdfs:label>
+        <rdfs:label>al mani</rdfs:label>
+        <rdfs:label>al mateen</rdfs:label>
+        <rdfs:label>al muakhkhir</rdfs:label>
+        <rdfs:label>al mubdi</rdfs:label>
+        <rdfs:label>al mughni</rdfs:label>
+        <rdfs:label>al muhaymin</rdfs:label>
+        <rdfs:label>al muhsee</rdfs:label>
+        <rdfs:label>al muhyee</rdfs:label>
+        <rdfs:label>al muid</rdfs:label>
+        <rdfs:label>al muizz</rdfs:label>
+        <rdfs:label>al mujeeb</rdfs:label>
+        <rdfs:label>al mumeet</rdfs:label>
+        <rdfs:label>al mumin</rdfs:label>
+        <rdfs:label>al muntaqim</rdfs:label>
+        <rdfs:label>al muqaddim</rdfs:label>
+        <rdfs:label>al muqeet</rdfs:label>
+        <rdfs:label>al muqsit</rdfs:label>
+        <rdfs:label>al muqtadir</rdfs:label>
+        <rdfs:label>al musawwir</rdfs:label>
+        <rdfs:label>al mutaali</rdfs:label>
+        <rdfs:label>al mutakabbir</rdfs:label>
+        <rdfs:label>al muzil</rdfs:label>
+        <rdfs:label>al qaabid</rdfs:label>
+        <rdfs:label>al qadir</rdfs:label>
+        <rdfs:label>al qahhar</rdfs:label>
+        <rdfs:label>al qawiyy</rdfs:label>
+        <rdfs:label>al qayyoom</rdfs:label>
+        <rdfs:label>al quddus</rdfs:label>
+        <rdfs:label>al waahid</rdfs:label>
+        <rdfs:label>al waajid</rdfs:label>
+        <rdfs:label>al waali</rdfs:label>
+        <rdfs:label>al waarith</rdfs:label>
+        <rdfs:label>al waasi</rdfs:label>
+        <rdfs:label>al wadood</rdfs:label>
+        <rdfs:label>al wahhaab</rdfs:label>
+        <rdfs:label>al waliyy</rdfs:label>
+        <rdfs:label>al waqeel</rdfs:label>
+        <rdfs:label xml:lang="en">almighty</rdfs:label>
+        <rdfs:label>an nafi</rdfs:label>
+        <rdfs:label>an nur</rdfs:label>
+        <rdfs:label>ar raafi</rdfs:label>
+        <rdfs:label>ar raheem</rdfs:label>
+        <rdfs:label>ar rahmaan</rdfs:label>
+        <rdfs:label>ar raoof</rdfs:label>
+        <rdfs:label>ar raqeeb</rdfs:label>
+        <rdfs:label>ar rasheed</rdfs:label>
+        <rdfs:label>ar razzaaq</rdfs:label>
+        <rdfs:label>as saboor</rdfs:label>
+        <rdfs:label>as salam</rdfs:label>
+        <rdfs:label>as samad</rdfs:label>
+        <rdfs:label>as samee</rdfs:label>
+        <rdfs:label>ash shaheed</rdfs:label>
+        <rdfs:label>ash shakoor</rdfs:label>
+        <rdfs:label>at tawwab</rdfs:label>
+        <rdfs:label xml:lang="en">author</rdfs:label>
+        <rdfs:label>az dhaahir</rdfs:label>
+        <rdfs:label xml:lang="en">creator</rdfs:label>
+        <rdfs:label xml:lang="en">deity</rdfs:label>
+        <rdfs:label xml:lang="en">divinity</rdfs:label>
+        <rdfs:label>duhl jalaali wal ikram</rdfs:label>
+        <rdfs:label xml:lang="en">eternal</rdfs:label>
+        <rdfs:label xml:lang="en">everlasting</rdfs:label>
+        <rdfs:label xml:lang="en">god</rdfs:label>
+        <rdfs:label xml:lang="en">lord</rdfs:label>
+        <rdfs:label>maalik ul mulk</rdfs:label>
+        <rdfs:label xml:lang="en">maker</rdfs:label>
+        <rdfs:label xml:lang="en">providence</rdfs:label>
+        <rdfs:label xml:lang="en">supreme being</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#arafaat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#arafaat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#arafat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#arafat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#asar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#asar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#awabeen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#awabeen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#bowing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#bowing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#brightmoon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#brightmoon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#chasht -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#chasht">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_whole_body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_whole_body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#eid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#eid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fajar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fajar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"/>
+        <rdfs:label>compulsary</rdfs:label>
+        <rdfs:label>mandatary</rdfs:label>
+        <rdfs:label xml:lang="en">mandatory</rdfs:label>
+        <rdfs:label>required</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"/>
+        <rdfs:label>compulsary</rdfs:label>
+        <rdfs:label>mandatary</rdfs:label>
+        <rdfs:label>mandatory</rdfs:label>
+        <rdfs:label>required</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"/>
+        <rdfs:label>abnegation</rdfs:label>
+        <rdfs:label>abstain</rdfs:label>
+        <rdfs:label>ascesis</rdfs:label>
+        <rdfs:label>asceticism</rdfs:label>
+        <rdfs:label>avoidance</rdfs:label>
+        <rdfs:label>chasteness</rdfs:label>
+        <rdfs:label>control</rdfs:label>
+        <rdfs:label>desist</rdfs:label>
+        <rdfs:label>fast</rdfs:label>
+        <rdfs:label>forbearance</rdfs:label>
+        <rdfs:label>moderation</rdfs:label>
+        <rdfs:label>nonindulgance</rdfs:label>
+        <rdfs:label>patience</rdfs:label>
+        <rdfs:label>refrain</rdfs:label>
+        <rdfs:label>regimen</rdfs:label>
+        <rdfs:label>restraint</rdfs:label>
+        <rdfs:label xml:lang="en">roza</rdfs:label>
+        <rdfs:label xml:lang="en">saum</rdfs:label>
+        <rdfs:label>self control</rdfs:label>
+        <rdfs:label>self denial</rdfs:label>
+        <rdfs:label xml:lang="en">self restraint</rdfs:label>
+        <rdfs:label>temperance</rdfs:label>
+        <rdfs:label>zuhd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fatiha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fatiha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#friday -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#friday">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#funeral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#funeral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"/>
+        <rdfs:comment xml:lang="en">The act of cleansing the whole body. Muslims perform after lesser impurities such as urination, defecation, flatulence, deep sleep, and light bleeding</rdfs:comment>
+        <rdfs:label xml:lang="en">full ablution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#haajat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#haajat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajj -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajj">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"/>
+        <rdfs:label>despatch</rdfs:label>
+        <rdfs:label>dispatch</rdfs:label>
+        <rdfs:label>hadj</rdfs:label>
+        <rdfs:label xml:lang="en">hadjdj</rdfs:label>
+        <rdfs:label>haj</rdfs:label>
+        <rdfs:label xml:lang="en">holy expedition</rdfs:label>
+        <rdfs:label>journey</rdfs:label>
+        <rdfs:label xml:lang="en">journey</rdfs:label>
+        <rdfs:label xml:lang="en">pilgrimage</rdfs:label>
+        <rdfs:label xml:lang="en">pilgrims journey</rdfs:label>
+        <rdfs:label xml:lang="en">spiritual journey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajr_e_aswad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajr_e_aswad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaba_tu_allah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hateem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hateem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaba_tu_allah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#intention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#intention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#isha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#isha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ishraq -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ishraq">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#islam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#islam">
+        <rdfs:label>Islamism</rdfs:label>
+        <rdfs:label>Mohammedanism</rdfs:label>
+        <rdfs:label>Monotheism</rdfs:label>
+        <rdfs:label>Muhammadanism</rdfs:label>
+        <rdfs:label>Muslimism</rdfs:label>
+        <rdfs:label>peace</rdfs:label>
+        <rdfs:label>submission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istikhara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istikhara">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istisqa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istisqa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamaraat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamaraat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaba_tu_allah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamarah_al_aqaba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamarah_al_aqaba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamaraat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamarah_al_sughra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamarah_al_sughra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamaraat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamarah_al_ula -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamarah_al_ula">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamaraat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamarah_al_wusta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamarah_al_wusta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#jamaraat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaba_tu_allah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaba_tu_allah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaffara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaffara">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_fasting"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nazar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#khusoof -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#khusoof">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kiblah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kiblah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kusoof -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kusoof">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#last_prophet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#last_prophet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah"/>
+        <rdfs:label>muhammad</rdfs:label>
+        <rdfs:label xml:lang="en">nabi</rdfs:label>
+        <rdfs:label xml:lang="en">prophet</rdfs:label>
+        <rdfs:label xml:lang="en">rasool</rdfs:label>
+        <rdfs:label xml:lang="en">seal of prophets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#madinah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#madinah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajj"/>
+        <rdfs:label>al madinah</rdfs:label>
+        <rdfs:label>medina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#maghrib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#maghrib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajj"/>
+        <rdfs:label>mecca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#maqaam_e_ibrahim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#maqaam_e_ibrahim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#marwah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#marwah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_head -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_head">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_neck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_neck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masjid_al_haraam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masjid_al_haraam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#mataaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#mataaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#meeqaat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#meeqaat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#meezab_e_rehmat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#meezab_e_rehmat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaba_tu_allah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#mina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#mina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#muharram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#muharram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#multazim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#multazim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kaba_tu_allah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#muzdalifaah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#muzdalifaah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"/>
+        <rdfs:label>naafel</rdfs:label>
+        <rdfs:label>naafil</rdfs:label>
+        <rdfs:label>nafel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"/>
+        <rdfs:label>naafel</rdfs:label>
+        <rdfs:label>naafil</rdfs:label>
+        <rdfs:label>nafel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"/>
+        <rdfs:label xml:lang="en">communion</rdfs:label>
+        <rdfs:label xml:lang="en">devotion</rdfs:label>
+        <rdfs:label>orison</rdfs:label>
+        <rdfs:label xml:lang="en">prayer</rdfs:label>
+        <rdfs:label>prostration</rdfs:label>
+        <rdfs:label>ritual</rdfs:label>
+        <rdfs:label>salaah</rdfs:label>
+        <rdfs:label>salaat</rdfs:label>
+        <rdfs:label xml:lang="en">salah</rdfs:label>
+        <rdfs:label xml:lang="en">salat</rdfs:label>
+        <rdfs:label xml:lang="en">supplication</rdfs:label>
+        <rdfs:label xml:lang="en">worship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nazar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nazar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_fasting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#islam"/>
+        <rdfs:label>backbone</rdfs:label>
+        <rdfs:label>column</rdfs:label>
+        <rdfs:label>mainstay</rdfs:label>
+        <rdfs:label>post</rdfs:label>
+        <rdfs:label>prop</rdfs:label>
+        <rdfs:label>support</rdfs:label>
+        <rdfs:label>tower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"/>
+        <rdfs:comment xml:lang="en">The steps performed to worship namaz . namaz cannot be completed if the mandatory acts are not performed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prostration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prostration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qadah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qadah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qauma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qauma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ramazan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ramazan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_fasting"/>
+        <rdfs:label>ramadan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#random -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#random">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#recitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#recitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_mouth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_mouth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_nostrils -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_nostrils">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_the_mouth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_the_mouth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#safaa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#safaa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#makkah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salaam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salaam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salat_ul_witr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salat_ul_witr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shabban -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shabban">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting"/>
+        <rdfs:label>lunar</rdfs:label>
+        <rdfs:label>month</rdfs:label>
+        <rdfs:label>shaaban</rdfs:label>
+        <rdfs:label>shaban</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"/>
+        <rdfs:label xml:lang="en">affirmation</rdfs:label>
+        <rdfs:label>avouchment</rdfs:label>
+        <rdfs:label>avowal</rdfs:label>
+        <rdfs:label xml:lang="en">belief</rdfs:label>
+        <rdfs:label xml:lang="en">decleration of faith</rdfs:label>
+        <rdfs:label xml:lang="en">faith</rdfs:label>
+        <rdfs:label>notion</rdfs:label>
+        <rdfs:label xml:lang="en">profession of faith</rdfs:label>
+        <rdfs:label xml:lang="en">tawhid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shawwal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shawwal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting"/>
+        <rdfs:label>lunar</rdfs:label>
+        <rdfs:label>month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sitting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sitting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing_after_bow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing_after_bow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"/>
+        <rdfs:label>hadith</rdfs:label>
+        <rdfs:label>sunna</rdfs:label>
+        <rdfs:label>way of life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"/>
+        <rdfs:label>hadith</rdfs:label>
+        <rdfs:label>sunna</rdfs:label>
+        <rdfs:label>way of life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahajud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahajud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahiyyatul_ul_wuzu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahiyyatul_ul_wuzu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#takbir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#takbir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tarawwih -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tarawwih">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tasbih -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tasbih">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tawaff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tawaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tayammum_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tayammum_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"/>
+        <rdfs:comment xml:lang="en">Substitute of wudu often done when there is no water to perform wudu. tayammum is done using dry earth/sand.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#travel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#travel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_fasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_fasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"/>
+        <rdfs:label>bound</rdfs:label>
+        <rdfs:label>compel</rdfs:label>
+        <rdfs:label>constrain</rdfs:label>
+        <rdfs:label>duty</rdfs:label>
+        <rdfs:label>necessiate</rdfs:label>
+        <rdfs:label>obligate</rdfs:label>
+        <rdfs:label>oblige</rdfs:label>
+        <rdfs:label>obliged</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"/>
+        <rdfs:label>bound</rdfs:label>
+        <rdfs:label>compel</rdfs:label>
+        <rdfs:label>constrain</rdfs:label>
+        <rdfs:label>duty</rdfs:label>
+        <rdfs:label>necessiate</rdfs:label>
+        <rdfs:label>obligate</rdfs:label>
+        <rdfs:label>oblige</rdfs:label>
+        <rdfs:label>obliged</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_face -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_face">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_feet_till_ankle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_feet_till_ankle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands_till_elbow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands_till_elbow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_nostrils -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_nostrils">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wipe_face -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wipe_face">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tayammum_component"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wipe_hands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wipe_hands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wipe_hands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tayammum_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wudu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wudu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#pillars"/>
+        <rdfs:label>aid</rdfs:label>
+        <rdfs:label xml:lang="en">almsgiving</rdfs:label>
+        <rdfs:label xml:lang="en">charity</rdfs:label>
+        <rdfs:label>contribution</rdfs:label>
+        <rdfs:label>donation</rdfs:label>
+        <rdfs:label xml:lang="en">donation</rdfs:label>
+        <rdfs:label>endowment</rdfs:label>
+        <rdfs:label>financial assistance</rdfs:label>
+        <rdfs:label>fund</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat_ul_fitr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat_ul_fitr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat_wealth"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat_wealth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat_wealth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zuhar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zuhar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ablution_component"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ghusal_component"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prayer_component"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tayammum_component"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#arafat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#brightmoon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#muharram"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#asar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fajar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#isha"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#maghrib"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zuhar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#awabeen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#chasht"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#haajat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#ishraq"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istikhara"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#khusoof"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#kusoof"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahiyyatul_ul_wuzu"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#bowing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fatiha"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#intention"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#prostration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qadah"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#qauma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#recitation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salaam"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sitting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#standing_after_bow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#takbir"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_body"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#clean_whole_body"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_nostrils"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_the_mouth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wudu"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#component"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajj"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#eid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#friday"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#salat_ul_witr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tawaff"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_fasting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_fasting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_fasting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_fasting"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#farz_namaz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#nafil_namaz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#sunnat_namaz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wajib_namaz"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#fasting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#hajj"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#namaz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shahadah"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#zakat"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#funeral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#istisqa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tahajud"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tarawwih"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#tasbih"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#travel"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_head"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#masah_of_neck"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#rinse_mouth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_face"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_feet_till_ankle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_hands_till_elbow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#wash_nostrils"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#random"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shabban"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2022/8/untitled-ontology-2#shawwal"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
